@@ -109,4 +109,4 @@ if upload_file:
         
         st.success(f"Stylized Image: ")
         st.image(image) 
-        col2.download_button("Download Image", data=content_img ,file_name="Stylized_image.jpg",mime="image/jpg")
+        st.download_button("Download Image", data=content_img ,file_name="Stylized_image.jpg",mime="image/jpg")
