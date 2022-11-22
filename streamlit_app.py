@@ -1,12 +1,9 @@
 import base64
 import json
 from pathlib import Path
-
 import matplotlib.pyplot as plt
-import numpy as np
 import requests
 import streamlit as st
-import tensorflow as tf
 
 
 def image_to_data_url(filename, img=None):
