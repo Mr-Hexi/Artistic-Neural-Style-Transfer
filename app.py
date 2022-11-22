@@ -63,7 +63,7 @@ with st.sidebar:
             st.image(img, width=150)
         style_img = image_to_data_url(style_upload.name,img)    
     elif box in style_path:
-            img  = "examples\{}.jpg".format(box)
+            img  = "examples/{}.jpg".format(box)
             st.image(plt.imread(img), width=150) 
             style_img = image_to_data_url(img)    
         
