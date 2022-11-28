@@ -17,15 +17,9 @@ def image_to_data_url(filename, img=None):
     return encode 
     
     
-    
-def style_transfer(content_img,style_image, style_weight = 1, content_weight = 1, style_blur=False):
-    pass
-
 st.set_page_config(page_title="ArtisticNeural Style Transfer 🏞️",
                   page_icon="🖼️",
-                  initial_sidebar_state="expanded",
-                  # layout="wide"
-                  )
+                  initial_sidebar_state="expanded")
 
 st.title("Artistic Neural Style Transfer 📸")
 st.markdown("**Neural style transfer is a technique of blending style of a content image and a style image together so the output image looks like the content image, but “painted” in the style of the style reference image.** [Learn More](https://www.tensorflow.org/tutorials/generative/style_transfer)")
@@ -109,4 +103,4 @@ if upload_file:
         
         st.success(f"Stylized Image: ")
         st.image(image) 
-        st.download_button("Download Image", data=content_img ,file_name="Stylized_image.jpg",mime="image/jpg")
+        st.download_button("Download Image", data=image ,file_name="Stylized_image.jpg",mime="image/jpg")
