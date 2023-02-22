@@ -66,7 +66,7 @@ with st.sidebar:
 
     slider_1 = st.slider("Adjust Style Density", min_value=0.0,max_value=2.0,step=0.01,value=1.0)
     slider_2 = st.slider("Content Sharpness", min_value=1.0,max_value=5.0,step=0.01,value=1.0)
-    checkbox = st.checkbox("Tune Style(experimental)")
+#     checkbox = st.checkbox("Tune Style(experimental)")
     
 
   
@@ -94,7 +94,7 @@ if upload_file:
             style_img,
             slider_1,
             slider_2,
-            checkbox,
+#             checkbox,
         ]})
         data= r.json()
         data = data['data'][0]
