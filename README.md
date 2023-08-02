@@ -20,5 +20,8 @@ Check out the live demo of the Artistic Neural Style Transfer application [here]
 - Interactive and intuitive design for a seamless user experience.
 
 
+
+## Outputs
+
 ## 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
