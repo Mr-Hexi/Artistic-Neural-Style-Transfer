@@ -1,6 +1,6 @@
 # Artistic Neural Style Transfer
 
-![Artistic Neural Style Transfer](images/banner.jpg)
+
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ The system utilizes convolutional neural networks to extract the content and sty
 ## Demo
 
 Check out the live demo of the Artistic Neural Style Transfer application [here](https://mr-hexi-artistic-neural-style-transfer-app-zps7np.streamlit.app/).
-
+![APP Demo](https://raw.githubusercontent.com/Mr-Hexi/Artistic-Neural-Style-Transfer/81be26a489e5dce2460dfac2022c33e11e7ccdf0/extras/app.png)
 ## Features
 
 - Apply various artistic styles to your images in real-time.
