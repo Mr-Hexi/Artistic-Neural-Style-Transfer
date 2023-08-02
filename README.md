@@ -1,19 +1,5 @@
 # Artistic Neural Style Transfer
 
-
-
-## Table of Contents
-
-- [Description](#description)
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Description
-
 The Artistic Neural Style Transfer project is an interactive web application that leverages the power of deep learning to apply artistic styles to images. Using a pre-trained TF-Hub fast neural style transfer model, this project enables users to transform their photos into visually appealing pieces of art inspired by famous paintings and other artistic styles.
 
 The system utilizes convolutional neural networks to extract the content and style features of the input image and a chosen artistic style. By combining these features, it generates a new image that retains the content of the original image while adopting the style characteristics. This creates a fascinating blend of content and style, resulting in unique and captivating visuals.
