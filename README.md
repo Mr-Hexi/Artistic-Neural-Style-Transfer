@@ -22,6 +22,8 @@ Check out the live demo of the Artistic Neural Style Transfer application [here]
 
 
 ## Outputs
-
+Content Image             |  Style Image          |  Generated Image            
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/Mr-Hexi/Artistic-Neural-Style-Transfer/blob/main/extras/content_4.jpg?raw=true" width="200" height="200">  | <img src="https://github.com/Mr-Hexi/Artistic-Neural-Style-Transfer/blob/main/examples/Scream.jpg?raw=true" width="200" height="200">  | <img src="https://raw.githubusercontent.com/Mr-Hexi/Artistic-Neural-Style-Transfer/main/extras/Stylized_image%20(8).jpg?raw=true" width="200" height="200">
 ## 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
