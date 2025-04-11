@@ -1,3 +1,6 @@
-streamlit==1.15.0
-matplotlib==3.6.2
-gradio-client==1.1.1
+streamlit
+gradio_client
+matplotlib
+numpy==1.26.4
+pandas
+altair==4.2.2
